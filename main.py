@@ -11,8 +11,7 @@ def even_list(int_list: List[int]) -> List[int]:
 # Skeleton code for sum_of_squares_of_even
 def sum_of_squares_of_even(even_int_list: List[int]) -> int:
     """Computes the sum of the squares of all even integers in a list."""
-    # TODO: Implement sum_of_squares_of_even
-    pass
+    return sum(number * number for number in even_int_list)
 
 
 def main():
