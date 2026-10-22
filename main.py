@@ -4,8 +4,7 @@ from typing import List
 # Skeleton code for even_list
 def even_list(int_list: List[int]) -> List[int]:
     """Determines if a number is even and returns a list of even integers."""
-    # TODO: Implement even_list
-    pass
+    return [number for number in int_list if number % 2 == 0]
 
 
 # Skeleton code for sum_of_squares_of_even
